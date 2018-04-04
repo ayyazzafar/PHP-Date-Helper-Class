@@ -7,10 +7,7 @@ class DateHelper{
 
     function weekStartAndEndDates(){
 
-
         $weekEndDay = $this->getWeekLastDay($this->weekStartDay);
-        $weekStartDate = '';
-        $weekEndDate = '';
         $date = date('Y-m-d');
 
         if(date('D')==$weekEndDay){
