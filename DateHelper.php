@@ -96,4 +96,5 @@ class DateHelper{
 }
 
 $obj = new DateHelper();
-print_r($obj->weekStartAndEndDates('Tue'));
+$obj->weekStartDay = 'Thu';
+print_r($obj->weekStartAndEndDates());
